@@ -7,6 +7,17 @@ In your HTML File, add the following code:
 ```html
 <script src="./fuckdevtools.js"></script>
 ```
+Or, in nodejs web apps:
+```bash
+npm i @arashamini/fuckdevtools.js-main
+```
+and in your page:
+```js
+  useEffect(() => {
+    import('@arashamini/fuckdevtools.js-main')
+  }, [])
+```
+And it will be work.
 ## Config
 To config, go to fuckdevtools.js and edit this section:
 ```js
